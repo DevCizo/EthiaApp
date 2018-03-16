@@ -1,0 +1,6 @@
+framework module Pods_EthiaUITests {
+  umbrella header "Pods-EthiaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

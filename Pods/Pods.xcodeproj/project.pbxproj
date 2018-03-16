@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C7C4175E12EF7E435B67BF9582DF99 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D7F07CB987566C1ED959BDFFB373CF /* IQPreviousNextView.m */; };
+		04BC6C72900E853B804E7C3ADC9049A8 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 410CC0825B13338283058703BD220C9B /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05841F13BFF2D6EC09C25A73BC34EAA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		06BD53457ED71ABB417ED97CC2FF9228 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9B3D2099DD5FFB5B1F35AAF6C66CD8 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B26C0B2DE047CED14AF7C60374391AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F822D8876B7B46561877A54A4116EEAF /* MRCountryPicker-dummy.m */; };
+		1272F071D11EFD3133246140B9A8130D /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1044D9D3553D431DCD09D137468F25 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FAF936145744EF7FBEBD2B1CCF20430 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2F7987E872855E05236EFCCEAAF4E2 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2698FFB3FB651DE9FEA8821FF3E3A256 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 240C9E5373B83F6C28CD6D438BA05380 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104EE284A165FA6CEAF6FCAF23AFF2A1 /* SwiftCountryPicker.swift */; };
+		2C3810EA6835375432A233E79C028A4F /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C50E7AFA1DA205CAA600A0B5A3BD6E42 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA45B0F7175C884633BBE0ADEA5AC9E /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D119D77BA23218E50D8C71896CD475 /* IQUIView+IQKeyboardToolbar.m */; };
+		33F332BD847D16731F53DE7AA81C93A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		3DD5A26B210989F539F9ECFFB69DE28C /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A573AD5E13AA5843D048E574D982A516 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43BD87FE2A4B628E1D72CB2F3DC45F9F /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A8B84CE72D9D808BBADFFEC179B2E7 /* IQToolbar.m */; };
+		443346908A8190FBBBB34B1FA593EB54 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E90D0E8673CD3C4BA926752F9440CE /* IQKeyboardReturnKeyHandler.m */; };
+		45522B9F98469658A31054B82B6133FA /* Pods-EthiaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B42AA5FCD50CE6891CB4492F443B259 /* Pods-EthiaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4684DE919CC6D626CDB24611D4981881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		4B49FC52B69851F117C49AA94C01B337 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AB54982229103ED2C17E542888813E /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		501379C559598DE9AA823543C9EB07B3 /* Pods-EthiaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 430294AEC5F1053075ACBAA956B75659 /* Pods-EthiaTests-dummy.m */; };
+		50819958178AD5637A7ACC1F2F90D301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		5337BC4C83A056BD8023DA78F0B92E77 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B359831AFEA3E86EDD261C4C25383E /* IQBarButtonItem.m */; };
+		55AA601B4FB9DBC77E46B1CEACC805DA /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA011E628D452E27274B4A311402EEE /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA34FBF675480928C90B90962ADF553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		5CC0AEEAA1FA3C3C438925335EFDBA35 /* Pods-EthiaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3460BEAF4A993DCDF5234D688DC5FEFA /* Pods-EthiaUITests-dummy.m */; };
+		5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 91DD68477DE8B8DA82A2373B5CE83D6E /* Data */; };
+		672ECBE1AD25E837DE570E5C6EB01D47 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7498EE42A1E6BFF1194DB4A901483 /* IQTextView.m */; };
+		688492F9DF7DDE0989AEBFA367FBEC33 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA3CEAC73387D1C53B173847353EBE8 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBC4D824874B5956F530D2EE2956D45 /* Pods-Ethia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F91BD4018AA1ED392B2039038569 /* Pods-Ethia-dummy.m */; };
+		6C1EF0169B5B314206686D597368EB05 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 922A7F4D4C7F9778BC40B9103CD66717 /* IQUITextFieldView+Additions.m */; };
+		7035709F9D020AD401C2B19B6598F2FE /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA949494229BA6EF323642DC2F96DB26 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD82A159879063584B82B1AB8F9D451 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B59212F0B13B178277C7B75A9707E1 /* IQUIView+Hierarchy.m */; };
+		843C45E4A6B05D1D93C81DD5B098CE4C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D2C3B4A64894314135ABBF07F8782 /* IQKeyboardManager.m */; };
+		863288DB4FB9DC2F1F72C62A6FB767DA /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F147C4E9A13D9095700C33DCEF3F7C0D /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ACFE85614AFCD6370FF2E1B457812F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		99D9048526F06C67989F027FF01D535F /* Pods-EthiaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70948CF206674C227B0750D09D7B5BA2 /* Pods-EthiaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8578CF6065F8E210E5DB4C95332ACE /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED37F429145F1D1C34C22AA14ACD4A7 /* IQTitleBarButtonItem.m */; };
+		9EE4EB9DD009BFFC70B492AC19DDA5DE /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7945738C80D1A01D5ECD28D921CDE /* IQKeyboardManager-dummy.m */; };
+		A096F341F5EBB35033F76217B85A4777 /* SwiftCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4C7FF469A2B14FDA96BDB94846E2C42 /* SwiftCountryPicker.bundle */; };
+		A1117755DDA279216CAACBD6609A58CB /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40BB96338AB5ED5260B436F3DAB1B3 /* IQUIViewController+Additions.m */; };
+		A1150A5AFC85414D7851B5C038F4559E /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF910A1FC8674687D7E3477AFC4ABC /* IQUIScrollView+Additions.m */; };
+		A824EDC611882627501A32F54D6B6219 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0B70DE5CB2060A9C68C0CB82E40B67 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB5D8FF4B69C0B8E2CC2D2D61DDAD64 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0765817F65FA9659C78BA28941B80B /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42A9495A77E2359F87812387353E210 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E23DA195E8E147D6847BB23D3F29F34 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8B20C4EB234EF3A9DADB0365221E6D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F56CF78BE70694A94FA7C5092FDCF294 /* IQKeyboardManager.bundle */; };
+		C95E7903AF56181674866AFFB954C830 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = F4123D939D257066B8ECCC1906136ECD /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC201DE5326AA345CE1B2F42FC6412FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		CD29C12D4D084E694D9A348198CF6611 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DA429EC2DCCBFC72540D486DC63D4 /* IQNSArray+Sort.m */; };
+		CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = DD7A7BAD4D5F3DD02142A7485AEC8F98 /* Images */; };
+		CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D7B7E8CC337E9EB34BCA98B62ACF6 /* SwiftCountryView.swift */; };
+		DEE4A10020FF022F6CA0D70B7A910D9B /* Pods-Ethia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69438030866ADB6924629EFD56020190 /* Pods-Ethia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E450FB46407E6CA4F6B362B7C243E279 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AB2E24199B76814AFE65B096A9E6DC /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC2664DD318A7D63C3A10BC014A0441 /* MRCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A44D3ED358E7E359FD2B0CE7E0FB3E /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EFDAC7336DB9FCC808BC2ABADF7B0B /* IQUIWindow+Hierarchy.m */; };
+		F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 069E334F241E948B078A382C04A4BFDA /* SwiftCountryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486786A7F08693462E7C9040A07D17EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0837541784AB173CB811F2D4D93865;
+			remoteInfo = MRCountryPicker;
+		};
+		780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C206C042D404F93B93041BC6094351;
+			remoteInfo = "MRCountryPicker-SwiftCountryPicker";
+		};
+		C36649858E49B64CC36E6DBA8AFA1014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279AA6726F52A334C45E85774BD21A3D;
+			remoteInfo = IQKeyboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D8C9A84BFD0F4DB6ED8A5277CCD4C /* Pods-EthiaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthiaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04CB6A07FA5899376F42E801169C3B96 /* Pods-EthiaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthiaTests-frameworks.sh"; sourceTree = "<group>"; };
+		0639116A68D850FDDCE40AC5DA79D264 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		069E334F241E948B078A382C04A4BFDA /* SwiftCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftCountryView.xib; path = MRCountryPicker/Classes/SwiftCountryView.xib; sourceTree = "<group>"; };
+		0CAE210786E563938809FD82E0975ACC /* Pods-EthiaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthiaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		104EE284A165FA6CEAF6FCAF23AFF2A1 /* SwiftCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryPicker.swift; path = MRCountryPicker/Classes/SwiftCountryPicker.swift; sourceTree = "<group>"; };
+		18412C8663D1409902B985B9AF696455 /* Pods-Ethia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ethia.release.xcconfig"; sourceTree = "<group>"; };
+		1DFECF6A0CC6BA2CBD3BEB81C4DD7EF2 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		1ED37F429145F1D1C34C22AA14ACD4A7 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		23FA285E88CE602F6BD5675C7D1204BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C9E5373B83F6C28CD6D438BA05380 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		293BDC877581333DB359BF38E80CE5A5 /* Pods-EthiaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthiaTests-resources.sh"; sourceTree = "<group>"; };
+		2CA011E628D452E27274B4A311402EEE /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		2F2DA429EC2DCCBFC72540D486DC63D4 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		2F4A036DD59C343A25B848880A9106D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308400E72D14A5ADE57F947728592C8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3460BEAF4A993DCDF5234D688DC5FEFA /* Pods-EthiaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthiaUITests-dummy.m"; sourceTree = "<group>"; };
+		35A2C6B3A9E72931CF15F62371F6C5BD /* Pods-EthiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthiaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		396AE9D3913EB7A08813C0F795D63779 /* Pods_EthiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthiaUITests.framework; path = "Pods-EthiaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B13F91BD4018AA1ED392B2039038569 /* Pods-Ethia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ethia-dummy.m"; sourceTree = "<group>"; };
+		3B35BB499009568592833F0A7215DFE6 /* Pods-EthiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B42AA5FCD50CE6891CB4492F443B259 /* Pods-EthiaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthiaUITests-umbrella.h"; sourceTree = "<group>"; };
+		3CB72D3225902B30C62CE3A31343AE28 /* MRCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		3E0765817F65FA9659C78BA28941B80B /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		3E2F7987E872855E05236EFCCEAAF4E2 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		3F1044D9D3553D431DCD09D137468F25 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		3F4A6A939301FEB62FDE9D14AD8E5987 /* ResourceBundle-SwiftCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCountryPicker-Info.plist"; sourceTree = "<group>"; };
+		40D7F07CB987566C1ED959BDFFB373CF /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		40FECEED1966777D0CD9A09545DFA4B0 /* Pods-EthiaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthiaUITests-resources.sh"; sourceTree = "<group>"; };
+		410CC0825B13338283058703BD220C9B /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		41EFDAC7336DB9FCC808BC2ABADF7B0B /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		42C7858A6A1894348253603E142827AD /* Pods-EthiaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EthiaUITests.modulemap"; sourceTree = "<group>"; };
+		430294AEC5F1053075ACBAA956B75659 /* Pods-EthiaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthiaTests-dummy.m"; sourceTree = "<group>"; };
+		46AB54982229103ED2C17E542888813E /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		4BEBFB461E5799F611A3E075FCB9816B /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4AE3641FFDD31E75FF87E32AEC2DED /* Pods-Ethia-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ethia-resources.sh"; sourceTree = "<group>"; };
+		4F9B3D2099DD5FFB5B1F35AAF6C66CD8 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		51AB2E24199B76814AFE65B096A9E6DC /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		57AC9C46C8F124436758A82B25E5D095 /* MRCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRCountryPicker.modulemap; sourceTree = "<group>"; };
+		5A80F9389AF3F45564FD9D3EB9CB784A /* Pods_EthiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthiaTests.framework; path = "Pods-EthiaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC2664DD318A7D63C3A10BC014A0441 /* MRCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		5D4BE6EDEE99EEBC4750E680E15D0BBE /* Pods-EthiaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthiaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65908813073C5FBC49E19BB26A6B9264 /* Pods-Ethia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ethia-acknowledgements.plist"; sourceTree = "<group>"; };
+		69438030866ADB6924629EFD56020190 /* Pods-Ethia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ethia-umbrella.h"; sourceTree = "<group>"; };
+		69A8B84CE72D9D808BBADFFEC179B2E7 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		69F5A1A05A07C76625DB9935139AAD90 /* Pods-EthiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		70948CF206674C227B0750D09D7B5BA2 /* Pods-EthiaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthiaTests-umbrella.h"; sourceTree = "<group>"; };
+		74A7498EE42A1E6BFF1194DB4A901483 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		79D119D77BA23218E50D8C71896CD475 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		830AAA60D52F8D60A82390BB260840F3 /* Pods-EthiaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthiaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		881E20DE1BB676E007ADA8848482EEAC /* Pods-Ethia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Ethia.modulemap"; sourceTree = "<group>"; };
+		8AA3CEAC73387D1C53B173847353EBE8 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		8E23DA195E8E147D6847BB23D3F29F34 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		8F40BB96338AB5ED5260B436F3DAB1B3 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		916D69F99AD8C614759FAF43E86472B3 /* MRCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRCountryPicker.framework; path = MRCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DD68477DE8B8DA82A2373B5CE83D6E /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Data; sourceTree = "<group>"; };
+		922A7F4D4C7F9778BC40B9103CD66717 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B7945738C80D1A01D5ECD28D921CDE /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		9AFF910A1FC8674687D7E3477AFC4ABC /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		9B6D7B7E8CC337E9EB34BCA98B62ACF6 /* SwiftCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryView.swift; path = MRCountryPicker/Classes/SwiftCountryView.swift; sourceTree = "<group>"; };
+		9E520603B17748DF66104818E4071F79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A573AD5E13AA5843D048E574D982A516 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		AA949494229BA6EF323642DC2F96DB26 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		B2B359831AFEA3E86EDD261C4C25383E /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		B9C670C9EE7665540CEB7506204DA1BC /* Pods-Ethia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ethia-frameworks.sh"; sourceTree = "<group>"; };
+		BEDF966F4EFB06A825A71727F4991DB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D2C3B4A64894314135ABBF07F8782 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		C4E4E9D63F19D08EF767D386426499A5 /* Pods-Ethia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ethia.debug.xcconfig"; sourceTree = "<group>"; };
+		C50E7AFA1DA205CAA600A0B5A3BD6E42 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C6AD65E37C20C2BBD0D2E913AFC9CF81 /* Pods-EthiaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthiaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7E90D0E8673CD3C4BA926752F9440CE /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		CBBD0F693A20BE046129B286D45735A6 /* Pods_Ethia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ethia.framework; path = "Pods-Ethia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7C9FDA4F8DC600793D9B249BB6E48B /* Pods-Ethia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ethia-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD7A7BAD4D5F3DD02142A7485AEC8F98 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Images; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E9ED67C6A47C185711A01E4B982024A1 /* Pods-EthiaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EthiaTests.modulemap"; sourceTree = "<group>"; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F147C4E9A13D9095700C33DCEF3F7C0D /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRCountryPicker.xcconfig; sourceTree = "<group>"; };
+		F2B59212F0B13B178277C7B75A9707E1 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		F4123D939D257066B8ECCC1906136ECD /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		F4C7FF469A2B14FDA96BDB94846E2C42 /* SwiftCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftCountryPicker.bundle; path = SwiftCountryPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56CF78BE70694A94FA7C5092FDCF294 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		F822D8876B7B46561877A54A4116EEAF /* MRCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		FA762DEB38411FD6FBC5EFC3AEBFCBB9 /* Pods-EthiaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthiaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB52267CBF2333010EF9FF244A3C291A /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF0B70DE5CB2060A9C68C0CB82E40B67 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BDB07A7ADC73A4FA27785D7637D273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05841F13BFF2D6EC09C25A73BC34EAA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974780B54B8D4DB7DE69714B6DC678D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26C0B2DE047CED14AF7C60374391AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5444BBD876B95F48F4E0F0DB7B79FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50819958178AD5637A7ACC1F2F90D301 /* CoreGraphics.framework in Frameworks */,
+				4684DE919CC6D626CDB24611D4981881 /* Foundation.framework in Frameworks */,
+				33F332BD847D16731F53DE7AA81C93A8 /* QuartzCore.framework in Frameworks */,
+				8ACFE85614AFCD6370FF2E1B457812F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B170ABD28817E90ADBF84D4E32181072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC201DE5326AA345CE1B2F42FC6412FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6498963601B244A6FF8A72D251B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA34FBF675480928C90B90962ADF553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAAD6CDCC269544D0E669F6D95D605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAC552D0A74DEF83061782D3D37B6D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A72D3001653AC12C7A3ACD37B03E7 /* IQKeyboardManager */,
+				2D24E90D8B3DF2F4FC8246D10A5FB4B2 /* MRCountryPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		169CA3015B68ECBF4CB31B2E0A22A42D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91DD68477DE8B8DA82A2373B5CE83D6E /* Data */,
+				DD7A7BAD4D5F3DD02142A7485AEC8F98 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D24E90D8B3DF2F4FC8246D10A5FB4B2 /* MRCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				104EE284A165FA6CEAF6FCAF23AFF2A1 /* SwiftCountryPicker.swift */,
+				9B6D7B7E8CC337E9EB34BCA98B62ACF6 /* SwiftCountryView.swift */,
+				069E334F241E948B078A382C04A4BFDA /* SwiftCountryView.xib */,
+				169CA3015B68ECBF4CB31B2E0A22A42D /* Resources */,
+				4286F681F29290963FBBECBF138FD11B /* Support Files */,
+			);
+			name = MRCountryPicker;
+			path = MRCountryPicker;
+			sourceTree = "<group>";
+		};
+		4286F681F29290963FBBECBF138FD11B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				308400E72D14A5ADE57F947728592C8B /* Info.plist */,
+				57AC9C46C8F124436758A82B25E5D095 /* MRCountryPicker.modulemap */,
+				F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */,
+				F822D8876B7B46561877A54A4116EEAF /* MRCountryPicker-dummy.m */,
+				3CB72D3225902B30C62CE3A31343AE28 /* MRCountryPicker-prefix.pch */,
+				5AC2664DD318A7D63C3A10BC014A0441 /* MRCountryPicker-umbrella.h */,
+				3F4A6A939301FEB62FDE9D14AD8E5987 /* ResourceBundle-SwiftCountryPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRCountryPicker";
+			sourceTree = "<group>";
+		};
+		497F4F15BBEB02E2C8BCC15BD3A16466 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F071320CC806FF1A379350117052DCF6 /* Pods-Ethia */,
+				D019734D3921E2C31011930DE74A009E /* Pods-EthiaTests */,
+				AF7494956F08F10CE129BD56D1AC95C0 /* Pods-EthiaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BF609474A034C4B4781D96AAE92A304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBFB461E5799F611A3E075FCB9816B /* IQKeyboardManager.framework */,
+				916D69F99AD8C614759FAF43E86472B3 /* MRCountryPicker.framework */,
+				CBBD0F693A20BE046129B286D45735A6 /* Pods_Ethia.framework */,
+				5A80F9389AF3F45564FD9D3EB9CB784A /* Pods_EthiaTests.framework */,
+				396AE9D3913EB7A08813C0F795D63779 /* Pods_EthiaUITests.framework */,
+				F4C7FF469A2B14FDA96BDB94846E2C42 /* SwiftCountryPicker.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6049FF7D11F07EA90F8E85F77822663D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F56CF78BE70694A94FA7C5092FDCF294 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				0AAC552D0A74DEF83061782D3D37B6D0 /* Pods */,
+				5BF609474A034C4B4781D96AAE92A304 /* Products */,
+				497F4F15BBEB02E2C8BCC15BD3A16466 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9AA55D2E25E6CD4EB957E37DD2389B90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F4A036DD59C343A25B848880A9106D0 /* Info.plist */,
+				FB52267CBF2333010EF9FF244A3C291A /* IQKeyboardManager.modulemap */,
+				0639116A68D850FDDCE40AC5DA79D264 /* IQKeyboardManager.xcconfig */,
+				99B7945738C80D1A01D5ECD28D921CDE /* IQKeyboardManager-dummy.m */,
+				1DFECF6A0CC6BA2CBD3BEB81C4DD7EF2 /* IQKeyboardManager-prefix.pch */,
+				4F9B3D2099DD5FFB5B1F35AAF6C66CD8 /* IQKeyboardManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		AF7494956F08F10CE129BD56D1AC95C0 /* Pods-EthiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E520603B17748DF66104818E4071F79 /* Info.plist */,
+				42C7858A6A1894348253603E142827AD /* Pods-EthiaUITests.modulemap */,
+				C6AD65E37C20C2BBD0D2E913AFC9CF81 /* Pods-EthiaUITests-acknowledgements.markdown */,
+				830AAA60D52F8D60A82390BB260840F3 /* Pods-EthiaUITests-acknowledgements.plist */,
+				3460BEAF4A993DCDF5234D688DC5FEFA /* Pods-EthiaUITests-dummy.m */,
+				0CAE210786E563938809FD82E0975ACC /* Pods-EthiaUITests-frameworks.sh */,
+				40FECEED1966777D0CD9A09545DFA4B0 /* Pods-EthiaUITests-resources.sh */,
+				3B42AA5FCD50CE6891CB4492F443B259 /* Pods-EthiaUITests-umbrella.h */,
+				3B35BB499009568592833F0A7215DFE6 /* Pods-EthiaUITests.debug.xcconfig */,
+				FA762DEB38411FD6FBC5EFC3AEBFCBB9 /* Pods-EthiaUITests.release.xcconfig */,
+			);
+			name = "Pods-EthiaUITests";
+			path = "Target Support Files/Pods-EthiaUITests";
+			sourceTree = "<group>";
+		};
+		AF8A72D3001653AC12C7A3ACD37B03E7 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E23DA195E8E147D6847BB23D3F29F34 /* IQBarButtonItem.h */,
+				B2B359831AFEA3E86EDD261C4C25383E /* IQBarButtonItem.m */,
+				AA949494229BA6EF323642DC2F96DB26 /* IQKeyboardManager.h */,
+				C49D2C3B4A64894314135ABBF07F8782 /* IQKeyboardManager.m */,
+				3E0765817F65FA9659C78BA28941B80B /* IQKeyboardManagerConstants.h */,
+				46AB54982229103ED2C17E542888813E /* IQKeyboardManagerConstantsInternal.h */,
+				F147C4E9A13D9095700C33DCEF3F7C0D /* IQKeyboardReturnKeyHandler.h */,
+				C7E90D0E8673CD3C4BA926752F9440CE /* IQKeyboardReturnKeyHandler.m */,
+				F4123D939D257066B8ECCC1906136ECD /* IQNSArray+Sort.h */,
+				2F2DA429EC2DCCBFC72540D486DC63D4 /* IQNSArray+Sort.m */,
+				51AB2E24199B76814AFE65B096A9E6DC /* IQPreviousNextView.h */,
+				40D7F07CB987566C1ED959BDFFB373CF /* IQPreviousNextView.m */,
+				2CA011E628D452E27274B4A311402EEE /* IQTextView.h */,
+				74A7498EE42A1E6BFF1194DB4A901483 /* IQTextView.m */,
+				3E2F7987E872855E05236EFCCEAAF4E2 /* IQTitleBarButtonItem.h */,
+				1ED37F429145F1D1C34C22AA14ACD4A7 /* IQTitleBarButtonItem.m */,
+				C50E7AFA1DA205CAA600A0B5A3BD6E42 /* IQToolbar.h */,
+				69A8B84CE72D9D808BBADFFEC179B2E7 /* IQToolbar.m */,
+				FF0B70DE5CB2060A9C68C0CB82E40B67 /* IQUIScrollView+Additions.h */,
+				9AFF910A1FC8674687D7E3477AFC4ABC /* IQUIScrollView+Additions.m */,
+				A573AD5E13AA5843D048E574D982A516 /* IQUITextFieldView+Additions.h */,
+				922A7F4D4C7F9778BC40B9103CD66717 /* IQUITextFieldView+Additions.m */,
+				240C9E5373B83F6C28CD6D438BA05380 /* IQUIView+Hierarchy.h */,
+				F2B59212F0B13B178277C7B75A9707E1 /* IQUIView+Hierarchy.m */,
+				8AA3CEAC73387D1C53B173847353EBE8 /* IQUIView+IQKeyboardToolbar.h */,
+				79D119D77BA23218E50D8C71896CD475 /* IQUIView+IQKeyboardToolbar.m */,
+				3F1044D9D3553D431DCD09D137468F25 /* IQUIViewController+Additions.h */,
+				8F40BB96338AB5ED5260B436F3DAB1B3 /* IQUIViewController+Additions.m */,
+				410CC0825B13338283058703BD220C9B /* IQUIWindow+Hierarchy.h */,
+				41EFDAC7336DB9FCC808BC2ABADF7B0B /* IQUIWindow+Hierarchy.m */,
+				6049FF7D11F07EA90F8E85F77822663D /* Resources */,
+				9AA55D2E25E6CD4EB957E37DD2389B90 /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		D019734D3921E2C31011930DE74A009E /* Pods-EthiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF966F4EFB06A825A71727F4991DB1 /* Info.plist */,
+				E9ED67C6A47C185711A01E4B982024A1 /* Pods-EthiaTests.modulemap */,
+				005D8C9A84BFD0F4DB6ED8A5277CCD4C /* Pods-EthiaTests-acknowledgements.markdown */,
+				5D4BE6EDEE99EEBC4750E680E15D0BBE /* Pods-EthiaTests-acknowledgements.plist */,
+				430294AEC5F1053075ACBAA956B75659 /* Pods-EthiaTests-dummy.m */,
+				04CB6A07FA5899376F42E801169C3B96 /* Pods-EthiaTests-frameworks.sh */,
+				293BDC877581333DB359BF38E80CE5A5 /* Pods-EthiaTests-resources.sh */,
+				70948CF206674C227B0750D09D7B5BA2 /* Pods-EthiaTests-umbrella.h */,
+				35A2C6B3A9E72931CF15F62371F6C5BD /* Pods-EthiaTests.debug.xcconfig */,
+				69F5A1A05A07C76625DB9935139AAD90 /* Pods-EthiaTests.release.xcconfig */,
+			);
+			name = "Pods-EthiaTests";
+			path = "Target Support Files/Pods-EthiaTests";
+			sourceTree = "<group>";
+		};
+		F071320CC806FF1A379350117052DCF6 /* Pods-Ethia */ = {
+			isa = PBXGroup;
+			children = (
+				23FA285E88CE602F6BD5675C7D1204BD /* Info.plist */,
+				881E20DE1BB676E007ADA8848482EEAC /* Pods-Ethia.modulemap */,
+				CF7C9FDA4F8DC600793D9B249BB6E48B /* Pods-Ethia-acknowledgements.markdown */,
+				65908813073C5FBC49E19BB26A6B9264 /* Pods-Ethia-acknowledgements.plist */,
+				3B13F91BD4018AA1ED392B2039038569 /* Pods-Ethia-dummy.m */,
+				B9C670C9EE7665540CEB7506204DA1BC /* Pods-Ethia-frameworks.sh */,
+				4D4AE3641FFDD31E75FF87E32AEC2DED /* Pods-Ethia-resources.sh */,
+				69438030866ADB6924629EFD56020190 /* Pods-Ethia-umbrella.h */,
+				C4E4E9D63F19D08EF767D386426499A5 /* Pods-Ethia.debug.xcconfig */,
+				18412C8663D1409902B985B9AF696455 /* Pods-Ethia.release.xcconfig */,
+			);
+			name = "Pods-Ethia";
+			path = "Target Support Files/Pods-Ethia";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08928C85F03B48911FA2B0454C2CE3D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3161EF528EDC320C84B186F8EDE12749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE4A10020FF022F6CA0D70B7A910D9B /* Pods-Ethia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C33A003EA98C253C7AD034562D2BF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9048526F06C67989F027FF01D535F /* Pods-EthiaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC010FC8622A352DC5C8EA8A2C181A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45522B9F98469658A31054B82B6133FA /* Pods-EthiaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44CCD4D3EA125215C8595A0A6F03800 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A9495A77E2359F87812387353E210 /* IQBarButtonItem.h in Headers */,
+				06BD53457ED71ABB417ED97CC2FF9228 /* IQKeyboardManager-umbrella.h in Headers */,
+				7035709F9D020AD401C2B19B6598F2FE /* IQKeyboardManager.h in Headers */,
+				AFB5D8FF4B69C0B8E2CC2D2D61DDAD64 /* IQKeyboardManagerConstants.h in Headers */,
+				4B49FC52B69851F117C49AA94C01B337 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				863288DB4FB9DC2F1F72C62A6FB767DA /* IQKeyboardReturnKeyHandler.h in Headers */,
+				C95E7903AF56181674866AFFB954C830 /* IQNSArray+Sort.h in Headers */,
+				E450FB46407E6CA4F6B362B7C243E279 /* IQPreviousNextView.h in Headers */,
+				55AA601B4FB9DBC77E46B1CEACC805DA /* IQTextView.h in Headers */,
+				1FAF936145744EF7FBEBD2B1CCF20430 /* IQTitleBarButtonItem.h in Headers */,
+				2C3810EA6835375432A233E79C028A4F /* IQToolbar.h in Headers */,
+				A824EDC611882627501A32F54D6B6219 /* IQUIScrollView+Additions.h in Headers */,
+				3DD5A26B210989F539F9ECFFB69DE28C /* IQUITextFieldView+Additions.h in Headers */,
+				2698FFB3FB651DE9FEA8821FF3E3A256 /* IQUIView+Hierarchy.h in Headers */,
+				688492F9DF7DDE0989AEBFA367FBEC33 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				1272F071D11EFD3133246140B9A8130D /* IQUIViewController+Additions.h in Headers */,
+				04BC6C72900E853B804E7C3ADC9049A8 /* IQUIWindow+Hierarchy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17FDFEB9EFCDEE6C8CCE2C4301DAECCB /* Pods-EthiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAADAB301AD366981B5CED436ABFB43 /* Build configuration list for PBXNativeTarget "Pods-EthiaUITests" */;
+			buildPhases = (
+				79AEB5D8B599CA484B2A6A4031722361 /* Sources */,
+				CB6498963601B244A6FF8A72D251B97C /* Frameworks */,
+				CC010FC8622A352DC5C8EA8A2C181A1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EthiaUITests";
+			productName = "Pods-EthiaUITests";
+			productReference = 396AE9D3913EB7A08813C0F795D63779 /* Pods_EthiaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		279AA6726F52A334C45E85774BD21A3D /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1192466985C60041994C4723695355 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				7843D8328A048F62963A257A78B52C28 /* Sources */,
+				9E5444BBD876B95F48F4E0F0DB7B79FD /* Frameworks */,
+				F44CCD4D3EA125215C8595A0A6F03800 /* Headers */,
+				055C9D9F257A7E18EDD183F625313344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 4BEBFB461E5799F611A3E075FCB9816B /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E8CFEA13004D50B44E3A20D52295DD /* Build configuration list for PBXNativeTarget "MRCountryPicker" */;
+			buildPhases = (
+				7B0578BCE561926A6A8D80637BCC6622 /* Sources */,
+				B170ABD28817E90ADBF84D4E32181072 /* Frameworks */,
+				D5FB29CD6EEF43164450DEE3FCC09816 /* Resources */,
+				08928C85F03B48911FA2B0454C2CE3D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43ADDC57A045EF31A421B8E06ADC3715 /* PBXTargetDependency */,
+			);
+			name = MRCountryPicker;
+			productName = MRCountryPicker;
+			productReference = 916D69F99AD8C614759FAF43E86472B3 /* MRCountryPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		885D35CF78F73AED2E4C30EC8E1433FA /* Pods-Ethia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60A31D0268CA3EC190E05C6C104CF0B3 /* Build configuration list for PBXNativeTarget "Pods-Ethia" */;
+			buildPhases = (
+				EFEAD041A0299BE419F3F42CB0B45EC3 /* Sources */,
+				974780B54B8D4DB7DE69714B6DC678D5 /* Frameworks */,
+				3161EF528EDC320C84B186F8EDE12749 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC241F4DA4B76B998BA6C4B6D1D1CD46 /* PBXTargetDependency */,
+				1F1C419DF1A957CB866A830DB0A7D066 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ethia";
+			productName = "Pods-Ethia";
+			productReference = CBBD0F693A20BE046129B286D45735A6 /* Pods_Ethia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A660E7ED25B03F60635B68D0FFF558DE /* Pods-EthiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD12176DA04EF9B3BB7AC70FBC8F01D /* Build configuration list for PBXNativeTarget "Pods-EthiaTests" */;
+			buildPhases = (
+				F934837B8CDCE714ECDCAA097D29A5DD /* Sources */,
+				74BDB07A7ADC73A4FA27785D7637D273 /* Frameworks */,
+				6C33A003EA98C253C7AD034562D2BF45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EthiaTests";
+			productName = "Pods-EthiaTests";
+			productReference = 5A80F9389AF3F45564FD9D3EB9CB784A /* Pods_EthiaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D4BC34EA8C7AF81FC7022B097FC60D /* Build configuration list for PBXNativeTarget "MRCountryPicker-SwiftCountryPicker" */;
+			buildPhases = (
+				FBC8B72A616CFB4004BA0D908C465ED7 /* Sources */,
+				CBAAD6CDCC269544D0E669F6D95D605F /* Frameworks */,
+				35D0F330A1D7E63524907EEB201A06EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRCountryPicker-SwiftCountryPicker";
+			productName = "MRCountryPicker-SwiftCountryPicker";
+			productReference = F4C7FF469A2B14FDA96BDB94846E2C42 /* SwiftCountryPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5BF609474A034C4B4781D96AAE92A304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279AA6726F52A334C45E85774BD21A3D /* IQKeyboardManager */,
+				4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */,
+				A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */,
+				885D35CF78F73AED2E4C30EC8E1433FA /* Pods-Ethia */,
+				A660E7ED25B03F60635B68D0FFF558DE /* Pods-EthiaTests */,
+				17FDFEB9EFCDEE6C8CCE2C4301DAECCB /* Pods-EthiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055C9D9F257A7E18EDD183F625313344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B20C4EB234EF3A9DADB0365221E6D /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D0F330A1D7E63524907EEB201A06EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */,
+				CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FB29CD6EEF43164450DEE3FCC09816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A096F341F5EBB35033F76217B85A4777 /* SwiftCountryPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7843D8328A048F62963A257A78B52C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5337BC4C83A056BD8023DA78F0B92E77 /* IQBarButtonItem.m in Sources */,
+				9EE4EB9DD009BFFC70B492AC19DDA5DE /* IQKeyboardManager-dummy.m in Sources */,
+				843C45E4A6B05D1D93C81DD5B098CE4C /* IQKeyboardManager.m in Sources */,
+				443346908A8190FBBBB34B1FA593EB54 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				CD29C12D4D084E694D9A348198CF6611 /* IQNSArray+Sort.m in Sources */,
+				01C7C4175E12EF7E435B67BF9582DF99 /* IQPreviousNextView.m in Sources */,
+				672ECBE1AD25E837DE570E5C6EB01D47 /* IQTextView.m in Sources */,
+				9B8578CF6065F8E210E5DB4C95332ACE /* IQTitleBarButtonItem.m in Sources */,
+				43BD87FE2A4B628E1D72CB2F3DC45F9F /* IQToolbar.m in Sources */,
+				A1150A5AFC85414D7851B5C038F4559E /* IQUIScrollView+Additions.m in Sources */,
+				6C1EF0169B5B314206686D597368EB05 /* IQUITextFieldView+Additions.m in Sources */,
+				7DD82A159879063584B82B1AB8F9D451 /* IQUIView+Hierarchy.m in Sources */,
+				2CA45B0F7175C884633BBE0ADEA5AC9E /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				A1117755DDA279216CAACBD6609A58CB /* IQUIViewController+Additions.m in Sources */,
+				F4A44D3ED358E7E359FD2B0CE7E0FB3E /* IQUIWindow+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AEB5D8B599CA484B2A6A4031722361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0AEEAA1FA3C3C438925335EFDBA35 /* Pods-EthiaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0578BCE561926A6A8D80637BCC6622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */,
+				2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */,
+				CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */,
+				F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEAD041A0299BE419F3F42CB0B45EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBC4D824874B5956F530D2EE2956D45 /* Pods-Ethia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934837B8CDCE714ECDCAA097D29A5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501379C559598DE9AA823543C9EB07B3 /* Pods-EthiaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC8B72A616CFB4004BA0D908C465ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1C419DF1A957CB866A830DB0A7D066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRCountryPicker;
+			target = 4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */;
+			targetProxy = 486786A7F08693462E7C9040A07D17EE /* PBXContainerItemProxy */;
+		};
+		43ADDC57A045EF31A421B8E06ADC3715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MRCountryPicker-SwiftCountryPicker";
+			target = A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */;
+			targetProxy = 780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */;
+		};
+		FC241F4DA4B76B998BA6C4B6D1D1CD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 279AA6726F52A334C45E85774BD21A3D /* IQKeyboardManager */;
+			targetProxy = C36649858E49B64CC36E6DBA8AFA1014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01944120602D97F934D13D1839D3877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA762DEB38411FD6FBC5EFC3AEBFCBB9 /* Pods-EthiaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthiaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthiaUITests/Pods-EthiaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthiaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3550FED94BC56A7321469149E0A3703D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A2C6B3A9E72931CF15F62371F6C5BD /* Pods-EthiaTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthiaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthiaTests/Pods-EthiaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthiaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		473903AB1E2EF64C4D52A7A3665FF68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E4E9D63F19D08EF767D386426499A5 /* Pods-Ethia.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ethia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ethia/Pods-Ethia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ethia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69145AC0AE20E93EF1190AED4EAFAA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/ResourceBundle-SwiftCountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6C2244AB4E244B8C7FF6DC9D06C33CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/ResourceBundle-SwiftCountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7F063B03D0693F78750ECADD7BC61E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0639116A68D850FDDCE40AC5DA79D264 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83F12716DE30DEE13A36211FCD7150D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F5A1A05A07C76625DB9935139AAD90 /* Pods-EthiaTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthiaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthiaTests/Pods-EthiaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthiaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E8026F3A3853DDA71BFBA0F1D774AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0639116A68D850FDDCE40AC5DA79D264 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5B487E63F29B796F645E82CACF947C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B35BB499009568592833F0A7215DFE6 /* Pods-EthiaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthiaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthiaUITests/Pods-EthiaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthiaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEF079CD1B2A0CD5C826EE460A8D4CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRCountryPicker/MRCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRCountryPicker/MRCountryPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MRCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8A6B3E1FD10AE9843B9597D51955158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DD8CB73FD7E58E1472DBEF9C53A92A /* MRCountryPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRCountryPicker/MRCountryPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRCountryPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRCountryPicker/MRCountryPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MRCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADB5A8F9734C2BF9AC5DB0D3177AD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18412C8663D1409902B985B9AF696455 /* Pods-Ethia.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ethia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ethia/Pods-Ethia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ethia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E8CFEA13004D50B44E3A20D52295DD /* Build configuration list for PBXNativeTarget "MRCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6B3E1FD10AE9843B9597D51955158 /* Debug */,
+				AEF079CD1B2A0CD5C826EE460A8D4CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60A31D0268CA3EC190E05C6C104CF0B3 /* Build configuration list for PBXNativeTarget "Pods-Ethia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473903AB1E2EF64C4D52A7A3665FF68E /* Debug */,
+				CADB5A8F9734C2BF9AC5DB0D3177AD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D4BC34EA8C7AF81FC7022B097FC60D /* Build configuration list for PBXNativeTarget "MRCountryPicker-SwiftCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2244AB4E244B8C7FF6DC9D06C33CCE /* Debug */,
+				69145AC0AE20E93EF1190AED4EAFAA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1192466985C60041994C4723695355 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8026F3A3853DDA71BFBA0F1D774AA4 /* Debug */,
+				7F063B03D0693F78750ECADD7BC61E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD12176DA04EF9B3BB7AC70FBC8F01D /* Build configuration list for PBXNativeTarget "Pods-EthiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3550FED94BC56A7321469149E0A3703D /* Debug */,
+				83F12716DE30DEE13A36211FCD7150D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAADAB301AD366981B5CED436ABFB43 /* Build configuration list for PBXNativeTarget "Pods-EthiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B487E63F29B796F645E82CACF947C3 /* Debug */,
+				01944120602D97F934D13D1839D3877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
